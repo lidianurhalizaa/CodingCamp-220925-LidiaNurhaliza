@@ -1,0 +1,148 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background: #ffeef7; /* pastel pink */
+  padding: 10px 20px;
+  border-bottom: 2px solid #f7cfe0;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #3c3c3c;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+nav a:hover {
+  background: #b3e5fc; /* pastel blue */
+  color: #fff;
+}
+
+/* Welcome Section */
+.welcome {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #b3e5fc, #ffeef7);
+  color: #333;
+  border-bottom: 2px solid #f7cfe0;
+}
+.welcome h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.welcome p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Headquarters */
+.headquarter {
+  padding: 40px;
+  text-align: center;
+  background: #ffffff;
+}
+.headquarter h3 {
+  margin-bottom: 30px;
+  font-size: 22px;
+  color: #444;
+}
+.locations {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #b3e5fc;
+  background: #ffeef7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #444;
+  transition: 0.3s;
+}
+.circle:hover {
+  background: #b3e5fc;
+  color: white;
+  border-color: #ffeef7;
+}
+.locations p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Form Section */
+.form-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #f8faff;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+form label {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+}
+input, textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+button {
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #b3e5fc; /* pastel blue */
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #f7cfe0; /* pastel pink */
+  color: #fff;
+}
+
+/* Output Box */
+#formOutput {
+  width: 320px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  background: #ffeef7;
+  border-top: 2px solid #f7cfe0;
+  color: #333;
+}
